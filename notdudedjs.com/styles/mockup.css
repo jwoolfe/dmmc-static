@@ -196,7 +196,7 @@ a{
     margin-bottom: 20px;
   }
   
-  /*GAME INFO*/
+  /*ARTISTS*/
   .gameinfo{
       display: flex;
       flex-direction: column;
@@ -216,12 +216,21 @@ a{
   
   table{
     margin-left: 66px;
-    border-spacing: 11px;
+    border-spacing: 1px;
   }
   
-  th{
-    border-bottom: 1px solid black
+  /* th{
+    border-bottom: 1px solid #033949
   }
+  */
+  
+  th, td {
+    padding: 8px; /* Adjust the padding as needed */
+    height: 2px; /* Adjust the height as needed */
+    text-align: left;
+    border-bottom: 1px solid #033949;
+}
+
   
   .T3 th{
     text-align: left;
@@ -229,15 +238,15 @@ a{
   }
   
   .T3{
-      margin-top: 40px;
+      margin-top: 4px;
   }
   .cont{
-    word-spacing: 28px;
-    line-height: 10px;
+    word-spacing: 2px;
+    line-height: 1px;
   }
   
   .frame{
-    margin-bottom: 10px;
+    margin-bottom: 1px;
   }
   .map{display: flex;
   }
